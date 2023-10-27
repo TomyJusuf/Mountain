@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="build/normalize.css" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <title>MOUNTAIN</title>
+  </head>
+  <body>
+    <!--  ************* NAVBAR *************** -->
+    <nav class="navbar">
+      <div class="logo ml-10">
+        <img
+          src="../assets/gfx/logo.png"
+          alt="logo mountain"
+          class="h-16 w-40"
+        />
+      </div>
+      <ul class="list">
+        <li><a href="#about"> ABOUT</a></li>
+        <li><a href="#mountains"> MOUNTAINS</a></li>
+        <li><a href="#galery"> GALERY</a></li>
+        <li><a href="#kontakt"> KONTAKT</a></li>
+        <div class="toggle-bar">
+          <div class="bar-to-toggle"></div>
+        </div>
+      </ul>
+    </nav>
+
+    <!--  ************** HEADER **************-->
+    <header class="header_background">
+      <div class="gap-5 w-[650px]">
+        <h1 class="text-5xl md:text-2xl">Lets's start your mountain adventure!</h1>
+        <button class="btn md:px-10  md:py-2 md:text-base md:mt-10">see more</button>
+      </div>
+    </header>
+    <!--  ************ ASIDE BAR **************-->
+    <aside class="flex flex-wrap gap-3 w-20 h-32 fixed right-0 top-[32vh] md:top-[92vh] md:flex-nowrap  md:h-20 md:w-36 md:justify-center">
+      <div class="box md:w-20">
+        <img
+          src="/assets/gfx/icons/phone-icon.svg"
+          alt="phone icon"
+          class="imgPhone w-14 h-10"
+        />
+      </div>
+      <div class="box pl-3 pr-3">
+        <img
+          src="/assets/gfx/icons/mail-icon.svg"
+          alt="mail icon"
+          class="imgEmail w-10 h-10"
+        />
+      </div>
+    </aside>
+
+    <!-- *************** ABOUT **************** -->
+    <div class="about max-w-[800px] flex container my-20">
+      <div class="about-content text-style">
+        <div class="quote flex justify-center md:justify-start md:px-16">
+          <img src="/assets/gfx/icons/quote-icon.svg" alt="quote" />
+        </div>
+
+        <h1 class="font-bold text-2xl my-10 md:text-start md:px-14">Welcome to MOUNTAINS</h1>
+        <p class=" md:px-14 md:text-start">
+          Die Website „Mountains“ ist eine umfassende Ressource für alle, die
+          sich für Berge und ihre einzigartige Schönheit interessieren. Die
+          Seite bietet eine detaillierte Liste aller Berge der Welt und enthält
+          Informationen zu ihrer geografischen Lage, Höhe, Topographie und
+          vielem mehr. Darüber hinaus enthält die Website auch Geschichten und
+          Bilder von Menschen, die die Berge erkundet und bestiegen haben, sowie
+          Tipps und Anleitungen für Reisende, die sich auf den Weg machen
+          wollen. Egal, ob Sie ein begeisterter Bergsteiger sind oder einfach
+          nur von der majestätischen Schönheit der Berge fasziniert sind, die
+          Website „Mountains“ ist eine wunderbare Quelle für Informationen und
+          Inspiration.
+        </p>
+      </div>
+    </div>
+
+    <!--  ************** MOUNTAINS ***************-->
+    <div class="mountains-pictures">
+      <div class="image-1 image-card">
+        <h3>Mt Cook</h3>
+      </div>
+      <div class="image-2 image-card">
+        <h3>Weisshorn</h3>
+      </div>
+      <div class="image-3 image-card">
+        <h3>Aplamayo</h3>
+      </div>
+      <div class="image-4 image-card">
+        <h3>Großglockner</h3>
+      </div>
+      <div class="image-5 image-card">
+        <h3>Aconcagua</h3>
+      </div>
+      <div class="image-6 image-card">
+        <h3>Lhotse</h3>
+      </div>
+    </div>
+    <!-- *************** GALERY ****************** -->
+    <div
+      class="max-w-[1250px] gap-7 mx-auto flex  h-auto justify-between  xl:flex-col xl:items-center xl:h-[100%] mt-16 "
+    >
+      <div class="info-section  w-[750px] xl:w-2/3 md:w-[400px]">
+        <h1 class="font-bold font-openSans pb-3 uppercase text-2xl pl-20 ">
+          Mountains are GREAT!
+        </h1>
+        <p class="pr-16 md:w-[400px] md:px-0">
+          Die Website „Mountains“ ist eine umfassende Ressource für alle, die
+          sich für Berge und ihre einzigartige Schönheit interessieren. Die
+          Seite bietet eine detaillierte Liste aller Berge der Welt und enthält
+          Informationen zu ihrer geografischen Lage, Höhe, Topographie und
+          vielem mehr. Darüber hinaus enthält die Website auch Geschichten und
+          Bilder von Menschen, die die Berge erkundet und bestiegen haben, sowie
+          Tipps und Anleitungen für Reisende, die sich auf den Weg machen
+          wollen. Egal, ob Sie ein begeisterter Bergsteiger sind oder einfach
+          nur von der majestätischen Schönheit der Berge fasziniert sind, die
+          Website „Mountains“ ist eine wunderbare Quelle für Informationen und
+          Inspiration.
+        </p>
+        <button class="btn">LINK ZU WIKIPEDIA</button>
+      </div>
+      <div class="galeryImg">
+        <div
+          class="mountain-icon flex justify-center bg-blue-600 rounded-full w-16 h-16 relative top-[-20px] right-[30px] md:top-[190px] md:right-[-20px] md:w-10 md:h-10"
+        >
+          <img
+            src="/assets/gfx/icons/mountain-icon.svg"
+            alt="mount icon"
+            class="w-12 md:w-7"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- ************** KONTAKT *****************-->
+    <div class="contact  bg-blue-600 h-64  flex justify-center flex-wrap mt-16 px-16 md:h-[300px] items-center" >
+      <div class=" max-w-[1250px] h-40 flex items-center justify-between container   md:flex-wrap md:justify-center">
+        <div class="news-letter flex w-[550px] flex-wrap gap-5  md:justify-center">
+          <h1 class=" text-2xl uppercase font-bold text-white font-openSans">newsletter</h1>
+          <div class="send-section  border-2 border-white rounded-xl bg-white">
+
+            <input type="text" name="" id="send" placeholder="e-mail " class="py-2 px-5 rounded-tl-xl rounded-bl-xl bg-blue-600 placeholder-white placeholder:font-bold placeholder:uppercase sm:w-5" />
+            <label for="send" class="px-5 text-center  font-bold text-blue-600">Senden</label>
+            
+          </div>
+        </div>
+        <div class="follow w-[250px] flex flex-wrap justify-end  gap-5 md:mt-5">
+          <h1 class="w-full  text-end font-bold font-openSans text-2xl uppercase text-white">fallow us</h1>
+          <div class="icons flex  w-[180px] justify-between ">
+            <img class="icon-1  w-[50px] h-[50px]" src="../assets/gfx/socials/facebook-icon.svg" alt="facebook icon"/>
+            <img class="icon-2 w-[50px] h-[50px]" src="../assets/gfx/socials/instagram-icon.svg" alt="instagram icon"></img>
+            <img class="icon-3 w-[50px] h-[50px]" src="../assets/gfx/socials/linkedin-icon.svg" alt="linkedin icon"></img>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- *************** FOOTER *************-->
+    <footer class="h-auto  mt-16 mb-16 container">
+      <!-- footer-hero -->
+      <div class="footer-hero flex justify-between container items-center max-w-[1250px]  h-40  md:flex-col md:gap-10 md:h-auto">
+        <div class="logo">
+          <img src="../assets/gfx/logo.png" alt="logo icon" class="w-60" />
+        </div>
+        <div class="impress-datenschutz font-bold font-openSans uppercase w-64 flex justify-between ">
+          <span>impressum</span>
+          <span>datenschutz</span>
+        </div>
+      </div >
+      <!-- copyright hero -->
+      <div class="copyright flex justify-center mt-0 font-medium xl:mb-12 md:my-10">
+        <span>&copy TOMAS MATUSEK</span>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container {
+    @apply max-w-[90%]  self-center;
+  }
+}
+
+/* ************* NAVBAR *************** */
+.navbar {
+  @apply flex justify-between py-2 top-0 fixed bg-white w-full;
+}
+
+.list {
+  @apply flex justify-end  items-center font-bold;
+}
+li {
+  @apply px-5;
+}
+.text-style {
+  @apply font-openSans text-center uppercase;
+}
+
+/* ************** HEADER ************** */
+.header_background {
+  @apply h-[70vh] bg-[url('../assets/img/groÃglockner.jpg')] bg-cover bg-center bg-no-repeat flex justify-center items-center bg-fixed font-openSans text-style font-bold;
+}
+.btn {
+  @apply bg-[#0077ff] px-14 py-4 text-xl text-style font-semibold text-white mt-5;
+}
+
+/* ************ ASIDE BAR ************** */
+.box {
+  @apply bg-[#0077ff] flex flex-wrap justify-end items-center  w-20 hover:flex hover:justify-start;
+}
+
+/* ************** MOUNTAINS *************** */
+.mountains-pictures {
+  @apply max-w-[1300px] h-auto flex gap-5 flex-wrap justify-center container;
+}
+.image-card {
+  @apply w-[400px] h-64 bg-cover rounded-xl flex items-end text-white font-bold font-openSans pb-5 pl-5;
+}
+
+.image-1 {
+  @apply bg-[linear-gradient(to_bottom,rgba(200,23,23,0.2),rgba(22,13,10,0.5)),url('../assets/img/mtcook.jpg')];
+}
+.image-2 {
+  @apply bg-[linear-gradient(to_bottom,rgba(10,23,23,0.2),rgba(22,13,10,0.5)),url('../assets/img/weisshorn.jpg')];
+}
+.image-3 {
+  @apply bg-[linear-gradient(to_bottom,rgba(10,23,23,0.1),rgba(22,13,10,0.8)),url('../assets/img/alpamayo.jpg')];
+}
+.image-4 {
+  @apply bg-[linear-gradient(to_bottom,rgba(20,23,23,0.1),rgba(20,13,10,0.8)),url('../assets/img/groÃglockner.jpg')];
+}
+.image-5 {
+  @apply bg-[linear-gradient(to_bottom,rgba(10,23,23,0.1),rgba(30,13,10,0.8)),url('../assets/img/aconcagua.jpg')];
+}
+.image-6 {
+  @apply bg-[linear-gradient(to_bottom,rgba(10,23,23,0.1),rgba(22,13,10,0.9)),url('../assets/img/lhotse.jpg')];
+}
+
+/* *************** GALERY ******************  */
+
+.galeryImg {
+  @apply bg-[url('../assets/img/weisshorn.jpg')] w-1/2 rounded-xl bg-no-repeat xl:h-[250px] xl:w-[450px] xl:rounded-xl xl:mt-16;
+}
+
+/* ************** KONTAKT ***************** */
